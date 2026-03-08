@@ -134,7 +134,7 @@ export default function DashboardPage() {
               </CardContent>
             </Card>
 
-            {/* Module 4: Risk Scoring - ACTIVE */}
+            {/* Module 4: Privacy Compliance Advisor - ACTIVE */}
             <Card className="relative overflow-hidden border-orange-500/50 bg-card">
               <div className="absolute top-0 right-0 w-32 h-32 bg-orange-500/10 rounded-full -mr-16 -mt-16" />
               <CardHeader>
@@ -142,15 +142,15 @@ export default function DashboardPage() {
                   <TrendingUp className="h-8 w-8 text-orange-500" />
                   <Badge className="bg-orange-500 hover:bg-orange-600">Active</Badge>
                 </div>
-                <CardTitle className="text-foreground tracking-wide uppercase mt-2">Risk Scoring</CardTitle>
+                <CardTitle className="text-foreground tracking-wide uppercase mt-2">Privacy Compliance Advisor</CardTitle>
                 <CardDescription className="text-muted-foreground">
-                  View your overall privacy exposure risk score and get actionable recommendations
+                  AI-powered privacy compliance guidance and data exposure risk analysis
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <Button asChild className="w-full bg-orange-600 hover:bg-orange-700 text-white shadow-[0_0_15px_rgba(255,165,0,0.2)] tracking-widest uppercase">
                   <Link href="/dashboard/risk-scoring">
-                    View Risk Score
+                    Get Compliance Advice
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>

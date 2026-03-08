@@ -44,8 +44,8 @@ export const siteConfig = {
     },
     {
       id: "risk-scoring",
-      name: "Risk Scoring",
-      description: "View your overall privacy exposure risk score",
+      name: "Privacy Compliance Advisor",
+      description: "AI-powered privacy compliance guidance and data exposure risk analysis",
       icon: "TrendingUp",
       route: "/dashboard/risk-scoring",
       enabled: true,

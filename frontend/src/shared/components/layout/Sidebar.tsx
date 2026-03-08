@@ -58,7 +58,7 @@ const navigation: NavItem[] = [
     color: 'text-green-500',
   },
   {
-    title: 'Risk Scoring',
+    title: 'Privacy Compliance Advisor',
     href: '/dashboard/risk-scoring',
     icon: TrendingUp,
     enabled: true,

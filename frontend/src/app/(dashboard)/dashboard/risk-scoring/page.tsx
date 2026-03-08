@@ -11,10 +11,10 @@ export default function RiskScoringPage() {
       <div className="-mx-3 md:-mx-6 -mt-3 md:-mt-6 bg-card border-b border-border pb-24 pt-12 md:pt-16 px-3 md:px-6 text-center text-foreground">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-4 text-orange-500">
           <TrendingUp className="h-10 w-10 md:h-12 md:w-12 drop-shadow-[0_0_15px_rgba(255,165,0,0.5)]" />
-          Exposure Risk Scoring
+          Privacy Compliance Advisor
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground mb-6 font-light max-w-2xl mx-auto">
-          Your holistic privacy score calculated from social media exposure, known breaches, and facial recognition hits.
+          AI-powered privacy compliance guidance — Sri Lankan data exposure risk analysis & legal advisory.
         </p>
       </div>
 

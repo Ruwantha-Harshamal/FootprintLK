@@ -34,7 +34,7 @@ export const apiConfig = {
       profiles: "/api/social/profiles",
     },
     
-    // Risk Scoring endpoints (future)
+    // Privacy Compliance Advisor endpoints (future)
     risk: {
       calculate: "/api/risk/calculate",
       history: "/api/risk/history",
