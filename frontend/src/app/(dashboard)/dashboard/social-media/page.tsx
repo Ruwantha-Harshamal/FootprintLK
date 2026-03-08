@@ -7,7 +7,7 @@ import { ShieldAlert } from 'lucide-react';
 export default function SocialMediaPage() {
   return (
     <DashboardLayout>
-      <div className="-mx-6 -mt-6 bg-card border-b border-border pb-32 pt-16 px-6 text-center text-foreground">
+      <div className="-mx-3 md:-mx-6 -mt-3 md:-mt-6 bg-card border-b border-border pb-24 md:pb-32 pt-12 md:pt-16 px-3 md:px-6 text-center text-foreground">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-4">
           <ShieldAlert className="h-10 w-10 md:h-12 md:w-12 text-primary drop-shadow-md" />
           Digital Footprint Analysis
@@ -17,7 +17,7 @@ export default function SocialMediaPage() {
         </p>
       </div>
 
-      <div className="max-w-5xl mx-auto -mt-16 relative z-10 space-y-6">
+      <div className="max-w-5xl mx-auto -mt-12 md:-mt-16 relative z-10 space-y-4 md:space-y-6">
         <SocialMediaDashboard />
       </div>
     </DashboardLayout>

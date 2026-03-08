@@ -23,9 +23,9 @@ export function Navbar() {
   
   return (
     <header className="sticky top-0 z-40 border-b bg-background/60 backdrop-blur-xl shadow-sm">
-      <div className="flex h-16 items-center justify-between px-6">
+      <div className="flex h-16 items-center justify-between px-3 md:px-6 pl-14 md:pl-6">
         <div className="flex items-center space-x-4">
-          <h1 className="text-lg font-semibold">Dashboard</h1>
+          <h1 className="text-lg font-semibold truncate">Dashboard</h1>
         </div>
         
         <div className="flex items-center space-x-4">

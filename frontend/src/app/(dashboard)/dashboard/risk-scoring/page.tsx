@@ -8,7 +8,7 @@ import { Progress } from '@/components/ui/progress';
 export default function RiskScoringPage() {
   return (
     <DashboardLayout>
-      <div className="-mx-6 -mt-6 bg-card border-b border-border pb-24 pt-16 px-6 text-center text-foreground">
+      <div className="-mx-3 md:-mx-6 -mt-3 md:-mt-6 bg-card border-b border-border pb-24 pt-12 md:pt-16 px-3 md:px-6 text-center text-foreground">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-4 text-orange-500">
           <TrendingUp className="h-10 w-10 md:h-12 md:w-12 drop-shadow-[0_0_15px_rgba(255,165,0,0.5)]" />
           Exposure Risk Scoring
@@ -18,7 +18,7 @@ export default function RiskScoringPage() {
         </p>
       </div>
 
-      <div className="max-w-5xl mx-auto -mt-12 relative z-10 grid gap-6 md:grid-cols-3">
+      <div className="max-w-5xl mx-auto -mt-12 relative z-10 grid gap-4 md:gap-6 grid-cols-1 md:grid-cols-3">
         {/* Main Score Card */}
         <Card className="md:col-span-1 border-orange-500/30 overflow-hidden relative bg-background shadow-[0_4px_30px_rgba(255,165,0,0.05)]">
           <div className="absolute top-0 right-0 w-32 h-32 bg-orange-500/10 rounded-full -mr-16 -mt-16" />

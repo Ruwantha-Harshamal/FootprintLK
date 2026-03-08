@@ -36,7 +36,7 @@ export default function ImageSearchPage() {
 
   return (
     <DashboardLayout>
-      <div className="-mx-6 -mt-6 bg-card border-b border-border pb-32 pt-16 px-6 text-center text-foreground">
+      <div className="-mx-3 md:-mx-6 -mt-3 md:-mt-6 bg-card border-b border-border pb-24 md:pb-32 pt-12 md:pt-16 px-3 md:px-6 text-center text-foreground">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-4">
           <Search className="h-10 w-10 md:h-12 md:w-12 text-primary drop-shadow-md" style={{ transform: 'rotate(-45deg)' }} />
           Check Your Privacy Exposure
@@ -49,15 +49,15 @@ export default function ImageSearchPage() {
         </p>
       </div>
 
-      <div className="max-w-3xl mx-auto -mt-16 relative z-10 space-y-6">
-        <Card className="shadow-2xl border border-border bg-card overflow-hidden mb-12">
-          <CardContent className="p-8 md:p-12">
+      <div className="max-w-3xl mx-auto -mt-12 md:-mt-16 relative z-10 space-y-4 md:space-y-6">
+        <Card className="shadow-2xl border border-border bg-card overflow-hidden mb-6 md:mb-12">
+          <CardContent className="p-4 md:p-8 lg:p-12">
             <h2 className="text-3xl font-medium text-foreground text-center mb-8">Upload Your Photo</h2>
 
             {status === 'idle' ? (
               <div 
                 className={cn(
-                  "border-2 border-dashed rounded-xl p-12 flex flex-col items-center justify-center transition-all duration-300 mb-8",
+                  "border-2 border-dashed rounded-xl p-6 md:p-12 flex flex-col items-center justify-center transition-all duration-300 mb-6 md:mb-8",
                   isDragging ? "border-primary bg-primary/10" : "border-border hover:border-primary/50 hover:bg-muted/50"
                 )}
                 onDragOver={handleDragOver}
@@ -86,7 +86,7 @@ export default function ImageSearchPage() {
                   <p className="text-destructive/80 text-sm">Your face was found in 1 location(s).</p>
                 </div>
 
-                <div className="border border-border rounded-md border-l-4 border-l-destructive bg-muted/30 p-5 flex gap-6 shadow-sm hover:border-r-primary transition-all">
+                <div className="border border-border rounded-md border-l-4 border-l-destructive bg-muted/30 p-3 md:p-5 flex flex-col md:flex-row gap-4 md:gap-6 shadow-sm hover:border-r-primary transition-all">
                   <div className="w-24 h-24 rounded-md overflow-hidden bg-background border border-border flex-shrink-0">
                     <img 
                       src="https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg" 

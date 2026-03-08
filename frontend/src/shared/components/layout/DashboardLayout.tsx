@@ -19,7 +19,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
         <Navbar />
         
         {/* Page content */}
-        <main className="flex-1 overflow-y-auto bg-gradient-to-br from-background via-background to-primary/10 p-6 relative">
+        <main className="flex-1 overflow-y-auto bg-gradient-to-br from-background via-background to-primary/10 p-3 md:p-6 relative">
           {children}
         </main>
       </div>

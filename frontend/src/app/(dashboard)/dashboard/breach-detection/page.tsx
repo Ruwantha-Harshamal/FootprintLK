@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 export default function BreachDetectionPage() {
   return (
     <DashboardLayout>
-      <div className="-mx-6 -mt-6 bg-card border-b border-border pb-24 pt-16 px-6 text-center text-foreground">
+      <div className="-mx-3 md:-mx-6 -mt-3 md:-mt-6 bg-card border-b border-border pb-24 pt-12 md:pt-16 px-3 md:px-6 text-center text-foreground">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-4 text-destructive">
           <ShieldAlert className="h-10 w-10 md:h-12 md:w-12 drop-shadow-[0_0_15px_rgba(255,0,0,0.5)]" />
           Data Breach Detection
@@ -18,7 +18,7 @@ export default function BreachDetectionPage() {
         </p>
       </div>
 
-      <div className="max-w-4xl mx-auto -mt-12 relative z-10 space-y-6">
+      <div className="max-w-4xl mx-auto -mt-12 relative z-10 space-y-4 md:space-y-6">
         <Card className="border-destructive/30 shadow-[0_4px_30px_rgba(255,0,0,0.05)] bg-background">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-xl text-destructive">
