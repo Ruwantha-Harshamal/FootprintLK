@@ -11,7 +11,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
-import { Bell, Settings, LogOut, User } from 'lucide-react';
+import { Bell, Settings, LogOut, User, FileText } from 'lucide-react';
 import { useAuth } from '@/shared/hooks/useAuth';
 
 export function Navbar() {
@@ -28,7 +28,20 @@ export function Navbar() {
           <h1 className="text-lg font-semibold truncate">Dashboard</h1>
         </div>
         
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-2 md:space-x-4">
+          {/* Report Button */}
+          <Button variant="outline" size="sm" className="hidden md:flex border-primary/30 text-primary hover:bg-primary/10" asChild>
+            <Link href="/dashboard/report">
+              <FileText className="h-4 w-4 mr-2" />
+              Report
+            </Link>
+          </Button>
+          <Button variant="ghost" size="icon" className="md:hidden" asChild>
+            <Link href="/dashboard/report">
+              <FileText className="h-5 w-5 text-primary" />
+            </Link>
+          </Button>
+
           {/* Notifications */}
           <Button variant="ghost" size="icon" className="relative">
             <Bell className="h-5 w-5" />
