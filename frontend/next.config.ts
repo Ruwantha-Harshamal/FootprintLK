@@ -6,6 +6,15 @@ const nextConfig: NextConfig = {
     // You can remove this once all backend integrations are complete
     ignoreBuildErrors: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/dashboard',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
